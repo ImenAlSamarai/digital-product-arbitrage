@@ -1,0 +1,16 @@
+# IDE files
+.idea/
+
+# System files
+.DS_Store
+
+# Sensitive data/products
+digital_product_files/
+premium_digital_products/
+premium_products_final/
+*.pdf
+
+# Generated content
+*.json
+etsy_images/
+professional_etsy_images/
