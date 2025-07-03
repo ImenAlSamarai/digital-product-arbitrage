@@ -4,13 +4,28 @@
 # System files
 .DS_Store
 
-# Sensitive data/products
+# Sensitive data/products (exclude from public repo)
 digital_product_files/
 premium_digital_products/
 premium_products_final/
-*.pdf
 
-# Generated content
+# Generated content with potential sensitive data
 *.json
 etsy_images/
 professional_etsy_images/
+
+# PDF samples (too large for git)
+*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+.venv/
+
+# API keys
+config.py
+secrets.py
